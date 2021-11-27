@@ -1,0 +1,27 @@
+.header__container{
+  background-color: #f70000c5;
+  justify-content: center;
+  align-items: center;
+  height: 10vh;
+}
+
+.Navbar__brand {
+   color: #ffffff;
+   display: flex;
+   align-items: center;
+ }
+
+.Navbar__brand img{
+  margin-top: 16px;
+  height: 6vh;
+  width: unset;
+}
+
+.Navbar__brand:hover {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.Navbar__brand-logo {
+  margin-right: 0.5rem;
+}

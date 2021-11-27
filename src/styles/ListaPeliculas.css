@@ -1,0 +1,111 @@
+.table__container{
+    max-width: 80%;
+    margin: auto;
+    padding: 0;
+}
+
+.rc-table-row tr td p{
+    max-width: 10px;
+}
+
+
+.card {
+    background: #ffffffd2;
+    border-radius: 10px;
+    /* display: inline-block; */
+    /* margin: 1rem; */
+    position: relative;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.card-1 {
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+.card p{
+    margin-top: 2px;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.btn-ver{
+    background-color: #f700009f;
+    height: 40px;
+    border-color: #fff;
+    border-radius: 100px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    -ms-border-radius: 100px;
+    -o-border-radius: 100px;
+}
+
+.btn-ver:hover{
+    background-color: #f70000;
+}
+
+.btn-mas{
+    height: 60px;
+    border-radius: 10px;
+    background-color: #2f9aee;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.texto__btn{
+    color: #fff;
+    height: 10px;
+}
+
+.boton_mas__container{
+    display: flex;
+    justify-content: center;
+}
+
+.fondo {
+    background-color:  #f70000c5;
+    height: 90vh;
+}
+
+.scroll{
+    display: block;
+    height: 64vh;
+    position: relative;
+    overflow:auto;
+    scrollbar-color: rgba(0, 0, 0, .5) rgba(0, 0, 0, 0);
+    scrollbar-width: thin;
+  }
+  
+  .scroll::-webkit-scrollbar {
+    -webkit-appearance: none;
+  }
+  
+  .scroll::-webkit-scrollbar:vertical {
+    width:10px;
+  }
+  
+  .scroll::-webkit-scrollbar-button:increment,.scroll::-webkit-scrollbar-button {
+    display: none;
+  } 
+  
+  .scroll::-webkit-scrollbar:horizontal {
+    height: 10px;
+  }
+  
+  .scroll::-webkit-scrollbar-thumb {
+    background-color: #797979;
+    border-radius: 20px;
+    border: 2px solid #f1f2f3;
+  }
+  
+  .scroll::-webkit-scrollbar-track {
+    border-radius: 10px;  
+  }
